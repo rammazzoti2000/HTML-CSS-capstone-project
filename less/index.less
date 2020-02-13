@@ -57,15 +57,38 @@ body {
 
 section {
   text-align: center;
+  font-size: 1.5rem;
+  padding-top: 50px;
+
+  .pet-title-header {
+    color: @backgroundRedPink;
+  }
+
 
   .instructions {
     display: flex;
     flex-flow: row wrap;
     justify-content: space-evenly;
     align-items: center;
+    margin-top: 20px;
 
     .instruction-cards {
-      width: 40%;
+      width: 20%;
+      height: 344px;
+      box-shadow: 0px 0px 10px rgba(226, 65, 64, 0.2);
+      border-radius: 5px;
+      margin: 40px 0;
+      padding: 40px;
+      background-color: white;
+
+      .icon {
+        font-size: 2rem;
+        color: @backgroundRedPink;
+      }
+
+      h3 {
+        margin: 15px 0 20px;
+      }
     }
   }
 }

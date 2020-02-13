@@ -47,15 +47,34 @@ body {
 }
 section {
   text-align: center;
+  font-size: 1.5rem;
+  padding-top: 50px;
+}
+section .pet-title-header {
+  color: #e24140;
 }
 section .instructions {
   display: flex;
   flex-flow: row wrap;
   justify-content: space-evenly;
   align-items: center;
+  margin-top: 20px;
 }
 section .instructions .instruction-cards {
-  width: 40%;
+  width: 20%;
+  height: 344px;
+  box-shadow: 0px 0px 10px rgba(226, 65, 64, 0.2);
+  border-radius: 5px;
+  margin: 40px 0;
+  padding: 40px;
+  background-color: white;
+}
+section .instructions .instruction-cards .icon {
+  font-size: 2rem;
+  color: #e24140;
+}
+section .instructions .instruction-cards h3 {
+  margin: 15px 0 20px;
 }
 footer {
   margin: 0 auto;
