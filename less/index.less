@@ -15,6 +15,8 @@ body {
 #nav-header {
   width: 100%;
   background-color: @backgroundRedPink;
+  box-shadow: 0px 0px 10px rgba(226, 65, 64, 0.2);
+  position: fixed;
 
   nav {
     display: flex;
@@ -22,11 +24,23 @@ body {
     justify-content: space-between;
     align-items: center;
     height: 80px;
+    width: 95%;
+    margin: 0 auto;
+
+    div {
+      display: inline-flex;
+    }
 
     .main-logo {
-      width: 100px;
-      height: 50px;
-      background-color: gray;
+      font-size: 3rem;
+      color: white;
+    }
+
+    span {
+      font-size: 2.5rem;
+      color: white;
+      padding-left: 10px;
+      font-weight: bold;
     }
 
     .nav-list li {
@@ -34,6 +48,15 @@ body {
       flex-flow: row nowrap;
       justify-content: space-between;
       align-items: center;
+      padding: 10px;
+
+      a {
+        color: white;
+        text-decoration: none;
+        font-size: 1.5rem;
+        text-transform: uppercase;
+        font-weight: bold;
+      }
     }
   }
 }
@@ -44,16 +67,88 @@ body {
   height: 554px;
 
   .main-header-container {
-    background: url(../img/main-image.jpeg) 50% 100% no-repeat;
-    height: 100%;
-    background-position: 0 50%;
+    background: url(../img/main-image.jpeg) no-repeat;
+    height: 127%;
+    background-position: 0;
     background-size: cover;
-    display: flex;
-    flex-flow: column wrap;
-    justify-content: center;
-    align-items: center;
+
+    .cover-header {
+      background-color: rgba(0, 0, 0, 0.4);
+      width: 100%;
+      height: 100%;
+      display: flex;
+      flex-flow: column wrap;
+      justify-content: center;
+      align-items: center;
+
+      .form-content {
+        width: 58%;
+        margin-top: 14%;
+      }
+
+      h2 {
+        color: white;
+        text-shadow: 1px 2px 1px black;
+        font-size: 2.5rem;
+        text-align: center;
+      }
+    }
+
+    form {
+      font-size: 1.5rem;
+      font-weight: bold;
+      background: rgba(255,255,255, 0.6);
+      padding: 40px;
+      border-radius: 6px;
+      margin-top: 10px;
+
+      p {
+        margin-bottom: 6px;
+      }
+      
+      input[type=text] {
+        width: 80%;
+        outline: none;
+        border: none;
+        padding: 3px 10px;
+        height: 43px;
+        }
+
+        button {
+          color: white;
+          background-color: @backgroundRedPink;
+          height: 43px;
+          width: 105px;
+          padding: 0;
+          border: none;
+          margin-left: -7px;
+          cursor: pointer;
+        }
+
+        button:active {
+          background-color: rgba(226, 65, 64, 0.8);
+        }
+      }
+    }
+
+    a {
+      color: black;
+      text-decoration: none;
+      font-size: 2rem;
+      background: rgba(255,255,255, 0.6);
+      border-radius: 6px;
+      padding: 8px 15px;
+      margin: 20px;
+    }
+
+    a:hover {
+      background-color: rgb(226, 65, 64);
+    }
+
+    a:active {
+      background: rgba(255,255,255, 0.6);
+    }
   }
-}
 
 section {
   text-align: center;
@@ -61,7 +156,8 @@ section {
   padding-top: 50px;
 
   .pet-title-header {
-    color: @backgroundRedPink;
+    color: white;
+    text-shadow: 1px 2px 1px black;
   }
 
 

@@ -11,6 +11,8 @@ body {
 #nav-header {
   width: 100%;
   background-color: #e24140;
+  box-shadow: 0px 0px 10px rgba(226, 65, 64, 0.2);
+  position: fixed;
 }
 #nav-header nav {
   display: flex;
@@ -18,17 +20,35 @@ body {
   justify-content: space-between;
   align-items: center;
   height: 80px;
+  width: 95%;
+  margin: 0 auto;
+}
+#nav-header nav div {
+  display: inline-flex;
 }
 #nav-header nav .main-logo {
-  width: 100px;
-  height: 50px;
-  background-color: gray;
+  font-size: 3rem;
+  color: white;
+}
+#nav-header nav span {
+  font-size: 2.5rem;
+  color: white;
+  padding-left: 10px;
+  font-weight: bold;
 }
 #nav-header nav .nav-list li {
   display: inline;
   flex-flow: row nowrap;
   justify-content: space-between;
   align-items: center;
+  padding: 10px;
+}
+#nav-header nav .nav-list li a {
+  color: white;
+  text-decoration: none;
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  font-weight: bold;
 }
 #main-header {
   width: 100%;
@@ -36,14 +56,75 @@ body {
   height: 554px;
 }
 #main-header .main-header-container {
-  background: url(../img/main-image.jpeg) 50% 100% no-repeat;
-  height: 100%;
-  background-position: 0 50%;
+  background: url(../img/main-image.jpeg) no-repeat;
+  height: 127%;
+  background-position: 0;
   background-size: cover;
+}
+#main-header .main-header-container .cover-header {
+  background-color: rgba(0, 0, 0, 0.4);
+  width: 100%;
+  height: 100%;
   display: flex;
   flex-flow: column wrap;
   justify-content: center;
   align-items: center;
+}
+#main-header .main-header-container .cover-header .form-content {
+  width: 58%;
+  margin-top: 14%;
+}
+#main-header .main-header-container .cover-header h2 {
+  color: white;
+  text-shadow: 1px 2px 1px black;
+  font-size: 2.5rem;
+  text-align: center;
+}
+#main-header .main-header-container form {
+  font-size: 1.5rem;
+  font-weight: bold;
+  background: rgba(255, 255, 255, 0.6);
+  padding: 40px;
+  border-radius: 6px;
+  margin-top: 10px;
+}
+#main-header .main-header-container form p {
+  margin-bottom: 6px;
+}
+#main-header .main-header-container form input[type=text] {
+  width: 80%;
+  outline: none;
+  border: none;
+  padding: 3px 10px;
+  height: 43px;
+}
+#main-header .main-header-container form button {
+  color: white;
+  background-color: #e24140;
+  height: 43px;
+  width: 105px;
+  padding: 0;
+  border: none;
+  margin-left: -7px;
+  cursor: pointer;
+}
+#main-header .main-header-container form button:active {
+  background-color: rgba(226, 65, 64, 0.8);
+}
+#main-header a {
+  color: black;
+  text-decoration: none;
+  font-size: 2rem;
+  background: rgba(255, 255, 255, 0.6);
+  border-radius: 6px;
+  padding: 8px 15px;
+  margin: 20px;
+}
+#main-header a:hover {
+  background-color: #e24140;
+}
+#main-header a:active {
+  background: rgba(255, 255, 255, 0.6);
 }
 section {
   text-align: center;
@@ -51,7 +132,8 @@ section {
   padding-top: 50px;
 }
 section .pet-title-header {
-  color: #e24140;
+  color: white;
+  text-shadow: 1px 2px 1px black;
 }
 section .instructions {
   display: flex;
