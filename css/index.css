@@ -208,6 +208,7 @@ footer .footer-about .footer-media-list {
 footer .footer-info {
   width: 95%;
   font-size: 1.3rem;
+  margin: 20px 0;
 }
 footer .footer-info ul {
   display: flex;
@@ -216,7 +217,7 @@ footer .footer-info ul {
 }
 footer .footer-info ul li {
   width: 24%;
-  margin: auto;
+  margin: 0 auto;
   text-align: center;
 }
 footer .footer-info ul h4 {
@@ -247,4 +248,30 @@ footer .footer-info ul button {
 }
 footer .footer-info ul span {
   color: #e24140;
+}
+footer .social-copyright {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 80px;
+  padding: 0 30px;
+  background-color: #1F1F1F;
+  color: #656565;
+  font-size: 1rem;
+}
+footer .social-copyright .social-footer {
+  font-size: 1.5rem;
+}
+footer .social-copyright .social-footer li {
+  padding: 0 10px;
+}
+footer .social-copyright .social-footer li a {
+  color: #656565;
+}
+footer .social-copyright .footer-copyright {
+  display: flex;
+  word-spacing: 5px;
+  letter-spacing: 3px;
 }
