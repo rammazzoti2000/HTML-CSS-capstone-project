@@ -166,12 +166,33 @@ footer {
   align-items: center;
   color: white;
 }
+footer ul li {
+  display: inline;
+}
 footer .footer-about {
   width: 100%;
   display: flex;
   flex-flow: row wrap;
   justify-content: space-between;
+  font-size: 1.5rem;
+  margin-top: 15px;
+  padding: 0 15px;
 }
-footer ul li {
-  display: inline;
+footer .footer-about ul li {
+  padding: 0 17px;
+}
+footer .footer-about ul li a {
+  color: white;
+  text-decoration: none;
+}
+footer .footer-info {
+  margin: 40px 0;
+}
+footer .footer-info ul {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+}
+footer .footer-info ul li {
+  width: 33%;
 }

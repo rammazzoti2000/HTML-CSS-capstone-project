@@ -197,14 +197,45 @@ footer {
   align-items: center;
   color: white;
 
+  ul li {
+    display: inline;
+  }
+
   .footer-about {
     width: 100%;
     display: flex;
     flex-flow: row wrap;
     justify-content: space-between;
+    font-size: 1.5rem;
+    margin-top: 15px;
+    padding: 0 15px;
+
+    ul {
+
+      li {
+        padding: 0 17px;
+
+        a {
+          color: white;
+          text-decoration: none;
+        }
+      }
+    }
   }
 
-  ul li {
-    display: inline;
+  
+
+  .footer-info {
+    margin: 40px 0;
+
+    ul {
+      display: flex;
+      flex-flow: row wrap;
+      justify-content: space-between;
+
+      li {
+        width: 33%;
+      }
+    }
   }
 }
