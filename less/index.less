@@ -206,7 +206,7 @@ footer {
     display: flex;
     flex-flow: row nowrap;
     justify-content: space-between;
-    font-size: 1.7rem;
+    font-size: 1.3rem;
     font-weight: bold;
     margin-top: 15px;
     padding: 0 15px;
@@ -215,11 +215,11 @@ footer {
 
       margin: auto;
       padding: 10px 0;
-      border-top: 1px solid gray;
-      border-bottom: 1px solid gray;
+      border-top: 1px solid #434343;
+      border-bottom: 1px solid #434343;
 
       li {
-        padding: 0px 32px;
+        padding: 0px 36px;
 
         a {
           color: white;
@@ -236,7 +236,7 @@ footer {
       font-size: 3.5rem;
       padding: 10px 25px;
       border-radius: 100%;
-      border: 1px solid;
+      border: 1px solid #434343;
       margin: 0 -8px;
     }
 
@@ -248,15 +248,53 @@ footer {
   
 
   .footer-info {
-    margin: 40px 0;
+    width: 95%;
+    font-size: 1.3rem;
 
     ul {
       display: flex;
       flex-flow: row wrap;
       justify-content: space-between;
 
+
       li {
-        width: 33%;
+        width: 24%;
+        margin: auto;
+        text-align: center;
+      }
+
+      h4 {
+        margin-bottom: 15px;
+        font-size: 1.5rem;
+      }
+
+      input[type=text] {
+        background-color: inherit;
+        color: white;
+        padding: 0 7px;
+        margin-right: -4px;
+        height: 38px;
+        outline: 0;
+        border: 0.1rem solid #434343;
+        border-right: none;
+      }
+
+      input[type=text]:focus {
+        outline: 0;
+      }
+
+      button {
+        width: 64px;
+        height: 38px;
+        border: none;
+        background-color: #434343;
+        color: white;
+        padding: 0;
+        cursor: pointer;
+      }
+
+      span {
+        color: @backgroundRedPink;
       }
     }
   }

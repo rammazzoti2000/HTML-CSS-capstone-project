@@ -174,7 +174,7 @@ footer .footer-about {
   display: flex;
   flex-flow: row nowrap;
   justify-content: space-between;
-  font-size: 1.7rem;
+  font-size: 1.3rem;
   font-weight: bold;
   margin-top: 15px;
   padding: 0 15px;
@@ -182,11 +182,11 @@ footer .footer-about {
 footer .footer-about ul {
   margin: auto;
   padding: 10px 0;
-  border-top: 1px solid gray;
-  border-bottom: 1px solid gray;
+  border-top: 1px solid #434343;
+  border-bottom: 1px solid #434343;
 }
 footer .footer-about ul li {
-  padding: 0px 32px;
+  padding: 0px 36px;
 }
 footer .footer-about ul li a {
   color: white;
@@ -199,14 +199,15 @@ footer .footer-about div {
   font-size: 3.5rem;
   padding: 10px 25px;
   border-radius: 100%;
-  border: 1px solid;
+  border: 1px solid #434343;
   margin: 0 -8px;
 }
 footer .footer-about .footer-media-list {
   margin: auto auto auto 0;
 }
 footer .footer-info {
-  margin: 40px 0;
+  width: 95%;
+  font-size: 1.3rem;
 }
 footer .footer-info ul {
   display: flex;
@@ -214,5 +215,36 @@ footer .footer-info ul {
   justify-content: space-between;
 }
 footer .footer-info ul li {
-  width: 33%;
+  width: 24%;
+  margin: auto;
+  text-align: center;
+}
+footer .footer-info ul h4 {
+  margin-bottom: 15px;
+  font-size: 1.5rem;
+}
+footer .footer-info ul input[type=text] {
+  background-color: inherit;
+  color: white;
+  padding: 0 7px;
+  margin-right: -4px;
+  height: 38px;
+  outline: 0;
+  border: 0.1rem solid #434343;
+  border-right: none;
+}
+footer .footer-info ul input[type=text]:focus {
+  outline: 0;
+}
+footer .footer-info ul button {
+  width: 64px;
+  height: 38px;
+  border: none;
+  background-color: #434343;
+  color: white;
+  padding: 0;
+  cursor: pointer;
+}
+footer .footer-info ul span {
+  color: #e24140;
 }
