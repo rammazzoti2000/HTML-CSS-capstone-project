@@ -98,7 +98,7 @@ body {
       font-size: 1.5rem;
       font-weight: bold;
       background: rgba(255,255,255, 0.6);
-      padding: 40px;
+      padding: 27px 40px 40px;
       border-radius: 6px;
       margin-top: 10px;
 
@@ -204,22 +204,44 @@ footer {
   .footer-about {
     width: 100%;
     display: flex;
-    flex-flow: row wrap;
+    flex-flow: row nowrap;
     justify-content: space-between;
-    font-size: 1.5rem;
+    font-size: 1.7rem;
+    font-weight: bold;
     margin-top: 15px;
     padding: 0 15px;
 
     ul {
 
+      margin: auto;
+      padding: 10px 0;
+      border-top: 1px solid gray;
+      border-bottom: 1px solid gray;
+
       li {
-        padding: 0 17px;
+        padding: 0px 32px;
 
         a {
           color: white;
           text-decoration: none;
         }
       }
+    }
+
+    .footer-about-list {
+      margin: auto 0 auto auto;
+    }
+
+    div {
+      font-size: 3.5rem;
+      padding: 10px 25px;
+      border-radius: 100%;
+      border: 1px solid;
+      margin: 0 -8px;
+    }
+
+    .footer-media-list {
+      margin: auto auto auto 0;
     }
   }
 
