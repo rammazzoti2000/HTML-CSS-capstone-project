@@ -52,8 +52,23 @@ body {
   text-transform: uppercase;
   font-weight: bold;
 }
-section {
-  margin-top: 200px;
+.search-select {
+  margin: 200px auto 50px;
+  width: 100%;
+  font-size: 1.5rem;
+  background-color: lightgray;
+  padding: 100px;
+}
+.search-select .find-container {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+.search-select .find-container .find {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: flex-start;
 }
 footer {
   margin: 0 auto;
