@@ -28,6 +28,61 @@
     </nav>
   </header>
 
+  <section class="search-select">
+    <h2>Filter by name, state, county, zipcode:</h2>
+    <div class="find-container">
+      <div class="input">
+        <label for="shelter">SHELTER NAME:*</label>
+        <input type="text">
+      </div>
+      <div class="find">
+        <label for="state">STATE:</label>
+        <select name="state" id="state">
+          <option disabled value></option>
+          <option value="france">France</option>
+          <option value="germany">Germany</option>
+          <option value="italy">Italy</option>
+          <option value="poland">Poland</option>
+          <option value="romania">Romania</option>
+          <option value="spain">Spain</option>
+        </select>
+      </div>
+      <div class="find">
+        <label for="county">COUNTY:</label>
+        <select name="county" id="county">
+          <option disabled value="select an option">Please select a state</option>
+        </select>
+      </div>
+      <div class="find">
+        <label for="city">CITY:</label>
+        <select name="city" id="city">
+          <option disabled value="select a state">Please select a state</option>
+        </select>
+      </div>
+      <div class="find">
+        <label for="zipcode">ZIPCODE:</label>
+        <select name="zipcode" id="zipcode">
+          <option disabled value="select a state">Please select a state</option>
+        </select>
+      </div>
+      <button>Search</button>
+      <button>Clear filter</button>
+    </div>
+  </section>
+
+  <section class="search-results">
+    <h2>Search Results Found 3 Shelter(s)</h2>
+    <div>
+      <a href="#"><img src="../img/result-one.png" alt="shelter torino"></a>
+    </div>
+    <div>
+      <a href="#"><img src="../img/result-two.png" alt="shelter berlin"></a>
+    </div>
+    <div>
+      <a href="#"><img src="../img/result-three.png" alt="shelter paris"></a>
+    </div>
+  </section>
+
  
   <!-- Footer section -->
   <footer>

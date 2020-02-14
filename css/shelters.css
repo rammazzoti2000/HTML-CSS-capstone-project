@@ -13,6 +13,8 @@ body {
   background-color: #e24140;
   box-shadow: 0px 0px 10px rgba(226, 65, 64, 0.2);
   position: fixed;
+  top: 0;
+  z-index: 999;
 }
 #nav-header nav {
   display: flex;
@@ -50,6 +52,9 @@ body {
   text-transform: uppercase;
   font-weight: bold;
 }
+section {
+  margin-top: 200px;
+}
 footer {
   margin: 0 auto;
   background-color: black;
@@ -57,9 +62,8 @@ footer {
   flex-flow: column wrap;
   align-items: center;
   color: white;
-  position: absolute;
+  position: relative;
   bottom: 0;
-  top: auto;
   width: 100%;
 }
 footer ul li {
