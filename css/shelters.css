@@ -21,7 +21,7 @@ body {
   flex-flow: row wrap;
   justify-content: space-between;
   align-items: center;
-  height: 80px;
+  height: 60px;
   width: 95%;
   margin: 0 auto;
 }
@@ -52,23 +52,47 @@ body {
   text-transform: uppercase;
   font-weight: bold;
 }
-.search-select {
-  margin: 200px auto 50px;
+section.jumbotron {
+  margin: 120px auto 50px;
   width: 100%;
   font-size: 1.5rem;
-  background-color: lightgray;
-  padding: 100px;
+  font-weight: bold;
+  padding: 5rem 2rem 10rem;
 }
-.search-select .find-container {
+section.jumbotron .find-container {
   display: flex;
   flex-flow: row wrap;
   justify-content: center;
 }
-.search-select .find-container .find {
+section.jumbotron .find-container div.input {
+  width: 16%;
+}
+section.jumbotron .find-container div.input input {
+  height: 32px;
+  background-color: white;
+  border: 1px solid lightgray;
+  border-radius: 3px;
+  padding-left: 5px;
+  width: 100%;
+}
+section.jumbotron .find-container .find {
   display: flex;
   flex-flow: column wrap;
   justify-content: center;
   align-items: flex-start;
+  padding: 0 2px;
+  width: 10%;
+}
+section.jumbotron .find-container .find label {
+  font-size: 1.4rem;
+}
+section.jumbotron .find-container .find .custom-select {
+  height: 32px;
+}
+section.jumbotron .find-container button {
+  height: 30px;
+  align-self: end;
+  margin: 0 2px 1px 1px;
 }
 footer {
   margin: 0 auto;
@@ -143,11 +167,12 @@ footer .footer-info ul input[type=text] {
   background-color: inherit;
   color: white;
   padding: 0 7px;
-  margin-right: -4px;
+  margin-right: -68px;
   height: 38px;
   outline: 0;
   border: 0.1rem solid #434343;
   border-right: none;
+  width: 100%;
 }
 footer .footer-info ul input[type=text]:focus {
   outline: 0;

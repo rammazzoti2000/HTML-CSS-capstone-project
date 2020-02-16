@@ -6,6 +6,7 @@
   <title>HTM/CSS - Capstone | Dog-Shelter Directory</title>
   <link rel="stylesheet" href="../css/shelters.css">
   <link rel="stylesheet" href="../css/reset.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
   <script src="https://kit.fontawesome.com/d4de0f4540.js" crossorigin="anonymous"></script>
 </head>
 
@@ -28,17 +29,17 @@
     </nav>
   </header>
 
-  <section class="search-select">
-    <h2>Filter by name, state, county, zipcode:</h2>
+  <section class="jumbotron">
+    <h2 class="display-4 text-secondary text-center pb-5">Filter by name, state, county, zipcode:</h2>
     <div class="find-container">
       <div class="input find">
         <label for="shelter">SHELTER NAME:*</label>
-        <input type="text">
+        <input type="text" required>
       </div>
       <div class="find">
         <label for="state">STATE:</label>
-        <select name="state" id="state">
-          <option disabled value></option>
+        <select name="state" id="state" class="custom-select">
+          <option selected>Choose...</option>
           <option value="france">France</option>
           <option value="germany">Germany</option>
           <option value="italy">Italy</option>
@@ -49,24 +50,24 @@
       </div>
       <div class="find">
         <label for="county">COUNTY:</label>
-        <select name="county" id="county" class="resize-select">
-          <option disabled value="select an option">Please select a state</option>
+        <select name="county" id="county" class="resize-select custom-select">
+          <option selected>Choose...</option>
         </select>
       </div>
       <div class="find">
         <label for="city">CITY:</label>
-        <select name="city" id="city" class="resize-select">
-          <option disabled value="select a state">Please select a state</option>
+        <select name="city" id="city" class="resize-select custom-select">
+          <option selected>Choose...</option>
         </select>
       </div>
       <div class="find">
         <label for="zipcode">ZIPCODE:</label>
-        <select name="zipcode" id="zipcode" class="resize-select">
-          <option disabled value="select a state">Please select a state</option>
+        <select name="zipcode" id="zipcode" class="resize-select custom-select">
+          <option selected>Choose...</option>
         </select>
       </div>
-      <button>Search</button>
-      <button>Clear filter</button>
+      <button type="submit" class="btn btn-primary">Search</button>
+      <button class="btn btn-warning text-white"><i class="fas fa-edit"></i>Clear filter</button>
     </div>
   </section>
 
@@ -111,8 +112,10 @@
       <ul class="subscribe-list">
         <li>
           <h4>SUBSCRIBE</h4>
-          <input type="text" name="search" placeholder="you@example.com">
-          <button type="button">send</button>
+          <div class="w-100">
+            <input type="text" name="search" placeholder="you@example.com">
+            <button type="button">send</button>
+          </div>
         </li>
         
         <li>

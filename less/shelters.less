@@ -25,7 +25,7 @@ body {
     flex-flow: row wrap;
     justify-content: space-between;
     align-items: center;
-    height: 80px;
+    height: 60px;
     width: 95%;
     margin: 0 auto;
 
@@ -63,23 +63,55 @@ body {
   }
 }
 
-.search-select {
-  margin: 200px auto 50px;
+section.jumbotron {
+  margin: 120px auto 50px;
   width: 100%;
   font-size: 1.5rem;
-  background-color: lightgray;
-  padding: 100px;
+  font-weight: bold;
+  padding: 5rem 2rem 10rem;
+  
 
   .find-container {
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
 
+    div.input {
+      width: 16%;
+
+      input {
+        height: 32px;
+        background-color: white;
+        border: 1px solid lightgray;
+        border-radius: 3px;
+        padding-left: 5px;
+        width: 100%;
+      }
+    }
+
+   
+
     .find {
       display: flex;
       flex-flow: column wrap;
       justify-content: center;
       align-items: flex-start;
+      padding: 0 2px;
+      width: 10%;
+
+      label {
+        font-size: 1.4rem;
+      }
+
+      .custom-select {
+        height: 32px
+      }
+    }
+
+    button {
+      height: 30px;
+      align-self: end;
+      margin: 0 2px 1px 1px;
     }
   }
 }
@@ -171,11 +203,12 @@ footer {
         background-color: inherit;
         color: white;
         padding: 0 7px;
-        margin-right: -4px;
+        margin-right: -68px;
         height: 38px;
         outline: 0;
         border: 0.1rem solid #434343;
         border-right: none;
+        width: 100%;
       }
 
       input[type=text]:focus {
