@@ -7,6 +7,7 @@ body {
   width: 100%;
   height: 100%;
   font-family: Arial, Helvetica, sans-serif;
+  height: auto;
 }
 #nav-header {
   width: 100%;
@@ -19,12 +20,13 @@ body {
   flex-flow: row wrap;
   justify-content: space-between;
   align-items: center;
-  height: 80px;
+  height: 60px;
   width: 95%;
   margin: 0 auto;
 }
-#nav-header nav div {
+#nav-header nav .logo-container {
   display: inline-flex;
+  cursor: pointer;
 }
 #nav-header nav .main-logo {
   font-size: 3rem;
@@ -46,7 +48,7 @@ body {
 #nav-header nav .nav-list li a {
   color: white;
   text-decoration: none;
-  font-size: 1.5rem;
+  font-size: 1.4rem;
   text-transform: uppercase;
   font-weight: bold;
 }
@@ -159,12 +161,15 @@ section .instructions .instruction-cards h3 {
   margin: 15px 0 20px;
 }
 footer {
-  margin: 0 auto;
+  margin: 25px auto 0;
   background-color: black;
   display: flex;
   flex-flow: column wrap;
   align-items: center;
   color: white;
+  position: relative;
+  bottom: 0;
+  width: 100%;
 }
 footer ul li {
   display: inline;
@@ -176,8 +181,7 @@ footer .footer-about {
   justify-content: space-between;
   font-size: 1.3rem;
   font-weight: bold;
-  margin-top: 15px;
-  padding: 0 15px;
+  padding: 10px 15px;
 }
 footer .footer-about ul {
   margin: auto;
@@ -186,7 +190,7 @@ footer .footer-about ul {
   border-bottom: 1px solid #434343;
 }
 footer .footer-about ul li {
-  padding: 0px 36px;
+  padding: 0px 40px;
 }
 footer .footer-about ul li a {
   color: white;
@@ -201,38 +205,47 @@ footer .footer-about div {
   border-radius: 100%;
   border: 1px solid #434343;
   margin: 0 -8px;
+  cursor: pointer;
 }
 footer .footer-about .footer-media-list {
   margin: auto auto auto 0;
 }
 footer .footer-info {
-  width: 95%;
+  width: 100%;
   font-size: 1.3rem;
   margin: 20px 0;
 }
 footer .footer-info ul {
   display: flex;
   flex-flow: row wrap;
-  justify-content: space-between;
+  justify-content: center;
+  align-items: baseline;
 }
 footer .footer-info ul li {
-  width: 24%;
+  width: 25%;
   margin: 0 auto;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
   text-align: center;
 }
 footer .footer-info ul h4 {
   margin-bottom: 15px;
   font-size: 1.5rem;
 }
+footer .footer-info ul .footer-input {
+  width: 90%;
+}
 footer .footer-info ul input[type=text] {
   background-color: inherit;
   color: white;
   padding: 0 7px;
-  margin-right: -4px;
+  margin-right: -68px;
   height: 38px;
   outline: 0;
   border: 0.1rem solid #434343;
   border-right: none;
+  width: 100%;
 }
 footer .footer-info ul input[type=text]:focus {
   outline: 0;
@@ -248,6 +261,7 @@ footer .footer-info ul button {
 }
 footer .footer-info ul span {
   color: #e24140;
+  cursor: pointer;
 }
 footer .social-copyright {
   display: flex;

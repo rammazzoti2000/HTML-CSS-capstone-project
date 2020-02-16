@@ -26,8 +26,9 @@ body {
   width: 95%;
   margin: 0 auto;
 }
-#nav-header nav div {
+#nav-header nav .logo-container {
   display: inline-flex;
+  cursor: pointer;
 }
 #nav-header nav .main-logo {
   font-size: 3rem;
@@ -49,7 +50,7 @@ body {
 #nav-header nav .nav-list li a {
   color: white;
   text-decoration: none;
-  font-size: 1.5rem;
+  font-size: 1.4rem;
   text-transform: uppercase;
   font-weight: bold;
 }
@@ -194,6 +195,7 @@ footer .footer-about div {
   border-radius: 100%;
   border: 1px solid #434343;
   margin: 0 -8px;
+  cursor: pointer;
 }
 footer .footer-about .footer-media-list {
   margin: auto auto auto 0;
@@ -249,6 +251,7 @@ footer .footer-info ul button {
 }
 footer .footer-info ul span {
   color: #e24140;
+  cursor: pointer;
 }
 footer .social-copyright {
   display: flex;
