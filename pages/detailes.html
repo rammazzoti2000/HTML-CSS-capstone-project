@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>HTM/CSS - Capstone | Dog-Shelter Directory</title>
-  <link rel="stylesheet" href="../css/shelters.css">
+  <link rel="stylesheet" href="../css/detailes.css">
   <link rel="stylesheet" href="../css/reset.css">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
   <script src="https://kit.fontawesome.com/d4de0f4540.js" crossorigin="anonymous"></script>
@@ -13,7 +13,7 @@
 <body>
 
   <!-- Navigation bar -->
-  <header id="nav-header">    
+  <header id="nav-header" class="shadow">
     <nav>
       <div class="logo-container">
         <i class="fas fa-map-marker-alt main-logo"></i>
@@ -29,74 +29,55 @@
     </nav>
   </header>
 
-  <!-- Search input section -->
-  <section class="jumbotron">
-    <h2 class="display-4 text-secondary text-center pb-5">Filter by name, state, county, zipcode:</h2>
-    <div class="find-container">
-      <div class="input find">
-        <label for="shelter">SHELTER NAME:*</label>
-        <input type="text" required>
-      </div>
-      <div class="find">
-        <label for="state">STATE:</label>
-        <select name="state" id="state" class="custom-select">
-          <option selected>Choose...</option>
-          <option value="france">France</option>
-          <option value="germany">Germany</option>
-          <option value="italy">Italy</option>
-          <option value="poland">Poland</option>
-          <option value="romania">Romania</option>
-          <option value="spain">Spain</option>
-        </select>
-      </div>
-      <div class="find">
-        <label for="county">COUNTY:</label>
-        <select name="county" id="county" class="resize-select custom-select">
-          <option selected>Choose...</option>
-        </select>
-      </div>
-      <div class="find">
-        <label for="city">CITY:</label>
-        <select name="city" id="city" class="resize-select custom-select">
-          <option selected>Choose...</option>
-        </select>
-      </div>
-      <div class="find">
-        <label for="zipcode">ZIPCODE:</label>
-        <select name="zipcode" id="zipcode" class="resize-select custom-select">
-          <option selected>Choose...</option>
-        </select>
-      </div>
-      <button type="submit" class="btn btn-primary">Search</button>
-      <button class="btn btn-warning text-white"><i class="fas fa-edit"></i>Clear filter</button>
+  <!-- Shelter detailes section -->
+  <section class="jumbotron shadow">
+    <h2><i class="fas fa-shield-alt"></i> Canile Rifugio di Torino </h2>
+    <div class="info-rows">
+     <div class="card">
+      <div class="card-body"><span>NAME: </span>Canile Rifugio di Torino </div>
+     </div>
+     <div class="card text-primary">
+      <div class="card-body"><span>TYPE: </span>Dog and Cats</div>
+     </div>
+     <div class="card text-primary">
+      <div class="card-body"><span>STATE: </span>Italy</div>
+     </div>
+     <div class="card text-primary">
+      <div class="card-body"><span>COUNTY: </span>Piemonte</div>
+     </div>
+     <div class="card text-primary">
+      <div class="card-body"><span>CITY: </span>Turin</div>
+     </div>
+     <div class="card text-primary">
+      <div class="card-body"><span>ZIPCODE:</span></div>
+     </div>
+    </div>
+    <div class="contact-container">
+      <button type="button" class="btn btn-primary">CONTACT US</button>
+      <ul class="contact-list">
+        <li>
+          <a href="#"><i class="fas fa-phone-alt text-primary"></i> TEL: +39 338.238.94.79</a>
+        </li>
+        <li>
+          <a href="#"><i class="fas fa-bus text-primary"></i> TRANSPORT: YES</a>
+        </li>
+        <li>
+          <a href="https://www.adottauncane.net/torino-e-provincia/canile-rifugio-di-torino.html" target="_blank"><i class="fas fa-desktop text-primary"></i> WEBSITE: adottauncane.net</a>
+        </li>
+      </ul>
     </div>
   </section>
 
-  <!-- Search results section -->
-  <section class="search-results">
-    <h2 class="display-4 text-secondary pb-5">Search Results Found 3 Shelter(s).</h2>
-    <div class="search-container">
-      <div class="search-cards">
-        <a href="#"><img src="../img/result-one.png" alt="shelter torino"></a>
-        <div class="middle">
-          <div class="text">Show More</div>
-        </div>
-      </div>
-      <div class="search-cards">
-        <a href="#"><img src="../img/result-two.png" alt="shelter berlin"></a>
-        <div class="middle">
-          <div class="text">Show More</div>
-        </div>
-      </div>
-      <div class="search-cards">
-        <a href="#"><img src="../img/result-three.png" alt="shelter paris"></a>
-        <div class="middle">
-          <div class="text">Show More</div>
-        </div>
-      </div>
-    </div>
-  </section>
+  <!-- See more detailes section -->
+  <div class="jumbotron more-detailes shadow">
+    <p><a href="https://www.adottauncane.net/torino-e-provincia/canile-rifugio-di-torino.html" target="_blank"><i class="fas fa-info-circle"></i> click to view more detailes.</a></p>
+  </div>
 
+  <!-- Map section -->  
+  <div class="map-container">
+    <h2><i class="far fa-compass"></i> MAP DIRECTIONS</h2>
+    <iframe class="shadow" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d5629.723818362599!2d7.702397000000001!3d45.129134!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47886e175a285831%3A0x70dbfe1c20c49254!2sStrada%20Cuorgn%C3%A8%2C%20139%2C%2010156%20Torino%20TO!5e0!3m2!1sit!2sit!4v1581895476821!5m2!1sit!2sit" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+  </div>
  
   <!-- Footer section -->
   <footer>
@@ -114,7 +95,7 @@
 
       <ul class="footer-media-list">
         <li><a href="#">FACEBOOK</a></li>
-        <li><a href="#">TWITEER</a></li>
+        <li><a href="#">TWITTER</a></li>
         <li><a href="#">BLOG</a></li>
         <li><a href="#">GOOGLE +</a></li>
       </ul>
