@@ -7,6 +7,7 @@ body {
   width: 100%;
   height: 100%;
   font-family: Arial, Helvetica, sans-serif;
+  height: auto;
 }
 #nav-header {
   width: 100%;
@@ -59,6 +60,10 @@ section.jumbotron {
   font-weight: bold;
   padding: 5rem 2rem 10rem;
 }
+section.jumbotron h2 {
+  font-size: 3rem;
+  font-weight: 500;
+}
 section.jumbotron .find-container {
   display: flex;
   flex-flow: row wrap;
@@ -94,8 +99,58 @@ section.jumbotron .find-container button {
   align-self: end;
   margin: 0 2px 1px 1px;
 }
-footer {
+.search-results {
+  width: 100%;
   margin: 0 auto;
+  text-align: center;
+}
+.search-results .search-container {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+.search-results .search-container .search-cards {
+  padding: 27px 0;
+  background-color: rgba(0, 0, 0, 0.2);
+  position: relative;
+}
+.search-results .search-container .search-cards img {
+  width: 60%;
+  margin: auto;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.4);
+  border-radius: 5px;
+}
+.search-results .search-container .search-cards .middle {
+  position: absolute;
+  z-index: 998;
+  top: 7.99%;
+  left: 20%;
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 60%;
+  height: 84%;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.search-results .search-container .search-cards .middle:hover {
+  background-color: rgba(0, 0, 0, 0.3);
+}
+.search-results .search-container .search-cards .text {
+  position: absolute;
+  bottom: 15%;
+  left: 26%;
+  color: white;
+  background-color: #e24140;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.8);
+  padding: 8px 10px 10px;
+  font-size: 1.3rem;
+  font-weight: bold;
+  border-radius: 3px;
+}
+.search-results .search-container .search-cards .text:hover {
+  background-color: #351316;
+}
+footer {
+  margin: 60px auto 0;
   background-color: black;
   display: flex;
   flex-flow: column wrap;
@@ -115,8 +170,7 @@ footer .footer-about {
   justify-content: space-between;
   font-size: 1.3rem;
   font-weight: bold;
-  margin-top: 15px;
-  padding: 0 15px;
+  padding: 10px 15px;
 }
 footer .footer-about ul {
   margin: auto;
@@ -125,7 +179,7 @@ footer .footer-about ul {
   border-bottom: 1px solid #434343;
 }
 footer .footer-about ul li {
-  padding: 0px 36px;
+  padding: 0px 40px;
 }
 footer .footer-about ul li a {
   color: white;
@@ -145,23 +199,30 @@ footer .footer-about .footer-media-list {
   margin: auto auto auto 0;
 }
 footer .footer-info {
-  width: 95%;
+  width: 100%;
   font-size: 1.3rem;
   margin: 20px 0;
 }
 footer .footer-info ul {
   display: flex;
   flex-flow: row wrap;
-  justify-content: space-between;
+  justify-content: center;
+  align-items: baseline;
 }
 footer .footer-info ul li {
   width: 24%;
   margin: 0 auto;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
   text-align: center;
 }
 footer .footer-info ul h4 {
   margin-bottom: 15px;
   font-size: 1.5rem;
+}
+footer .footer-info ul .footer-input {
+  width: 84%;
 }
 footer .footer-info ul input[type=text] {
   background-color: inherit;
