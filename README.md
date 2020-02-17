@@ -55,7 +55,7 @@ HTML-CSS-capstone-project">
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](pics/readme/screenshot.png)
+[![Product Name Screen Shot][product-screenshot]](img/screenshot.png)
 
 This project is a Capstone Project. Capstone projects are solo projects at the end of the each of the Microverse Main Technical Curriculum modules.
 
