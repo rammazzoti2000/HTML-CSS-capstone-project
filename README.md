@@ -103,6 +103,10 @@ This project was built using these technologies.
 * [LESS Documentation](http://lesscss.org/)
 * [BootStrap Documentation](https://getbootstrap.com/)
 
+## 📝 License
+
+This project is [MIT](https://opensource.org/licenses/MIT) licensed.
+
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 [contributors-shield]: https://img.shields.io/github/contributors/rammazzoti2000/HTML-CSS-capstone-project.svg?style=flat-square
