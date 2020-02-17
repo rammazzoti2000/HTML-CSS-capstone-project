@@ -22,20 +22,20 @@ body {
   flex-flow: row wrap;
   justify-content: space-between;
   align-items: center;
-  height: 60px;
+  height: 65px;
   width: 95%;
   margin: 0 auto;
 }
 #nav-header nav .logo-container {
   display: inline-flex;
   cursor: pointer;
-}
-#nav-header nav .main-logo {
-  font-size: 3rem;
   color: white;
+  font-size: 2rem;
 }
-#nav-header nav span {
-  font-size: 1.5rem;
+#nav-header nav .logo-container .logo {
+  font-size: 3rem;
+}
+#nav-header nav .logo-container .logo-increase {
   color: white;
   padding-left: 10px;
   font-weight: bold;
@@ -50,7 +50,7 @@ body {
 #nav-header nav .nav-list li a {
   color: white;
   text-decoration: none;
-  font-size: 1.4rem;
+  font-size: 1.5rem;
   text-transform: uppercase;
   font-weight: bold;
 }
@@ -288,9 +288,10 @@ footer .social-copyright .footer-copyright {
     flex-flow: column nowrap;
     justify-content: center;
     align-items: center;
+    height: auto;
   }
   #nav-header nav .logo-container {
-    margin: 20px auto 12px;
+    margin: 8px auto 18px;
   }
   #nav-header nav .nav-list li {
     padding: 0 32px;

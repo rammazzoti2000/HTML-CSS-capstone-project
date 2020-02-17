@@ -26,25 +26,26 @@ body {
     flex-flow: row wrap;
     justify-content: space-between;
     align-items: center;
-    height: 60px;
+    height: 65px;
     width: 95%;
     margin: 0 auto;
 
     .logo-container {
       display: inline-flex;
       cursor: pointer;
-    }
-
-    .main-logo {
-      font-size: 3rem;
       color: white;
-    }
+      font-size: 2rem;
 
-    span {
-      font-size: 1.5rem;
-      color: white;
-      padding-left: 10px;
-      font-weight: bold;
+
+      .logo {
+        font-size: 3rem;
+      }
+
+      .logo-increase {
+        color: white;
+        padding-left: 10px;
+        font-weight: bold;
+      }
     }
 
     .nav-list li {
@@ -57,7 +58,7 @@ body {
       a {
         color: white;
         text-decoration: none;
-        font-size: 1.4rem;
+        font-size: 1.5rem;
         text-transform: uppercase;
         font-weight: bold;
       }
@@ -344,9 +345,10 @@ footer {
       flex-flow: column nowrap;
       justify-content: center;
       align-items: center;
+      height: auto;
 
       .logo-container {
-        margin: 20px auto 12px;
+        margin: 8px auto 18px;
       }
 
       .nav-list {
