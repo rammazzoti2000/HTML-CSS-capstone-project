@@ -23,8 +23,8 @@
 <br />
 <p align="center">
   <a href="https://github.com/rammazzoti2000/
-HTML-CSS-capstone-project ">
-    <img src="/pics/readme/microverse.png" alt="Logo" width="80" height="80">
+HTML-CSS-capstone-project">
+    <img src="/img/microverse.png" alt="Logo" width="80" height="80">
   </a>
 
   <h3 align="center">HTML/CSS Capstone Project</h3>
@@ -120,4 +120,4 @@ HTML-CSS-capstone-project /stargazers
 HTML-CSS-capstone-project .svg?style=flat-square
 [issues-url]: https://github.com/rammazzoti2000/
 HTML-CSS-capstone-project /issues
-[product-screenshot]: /pics/readme/screenshot.png
+[product-screenshot]: /img/screenshot.png
