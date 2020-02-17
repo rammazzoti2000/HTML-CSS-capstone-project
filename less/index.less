@@ -416,7 +416,7 @@ footer {
       align-items: center;
 
       .instruction-cards {
-        width: 90%;
+        width: 90% !important;
         height: auto;
       }
     }
@@ -500,7 +500,7 @@ footer {
   }
 }
 
-@media only screen and (min-width: 577px) {
+@media only screen and (max-width: 768px) {
   #main-header {
 
     .main-header-container {
@@ -581,6 +581,7 @@ footer {
     }
   
     .footer-info {
+      padding: 0 15px;
   
       .subscribe-list {
         display: flex;
@@ -618,4 +619,8 @@ footer {
       }
     }
   }
+}
+
+@media only screen and (max-width: 1024px) {
+  
 }

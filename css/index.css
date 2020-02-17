@@ -337,7 +337,7 @@ footer .social-copyright .footer-copyright {
     align-items: center;
   }
   section .instructions .instruction-cards {
-    width: 90%;
+    width: 90% !important;
     height: auto;
   }
   footer .footer-about {
@@ -400,7 +400,7 @@ footer .social-copyright .footer-copyright {
     flex-flow: column;
   }
 }
-@media only screen and (min-width: 577px) {
+@media only screen and (max-width: 768px) {
   #main-header .main-header-container {
     background-size: auto 100%;
     background-position: center;
@@ -456,6 +456,9 @@ footer .social-copyright .footer-copyright {
     margin: auto;
     border: none;
     border-radius: 0;
+  }
+  footer .footer-info {
+    padding: 0 15px;
   }
   footer .footer-info .subscribe-list {
     display: flex;
