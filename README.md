@@ -79,6 +79,7 @@ Here are the objectives for this project:
 This project was built using these technologies.
 * HTML
 * CSS3
+* LESS (CSS)
 * BootStrap
 * Stickler
 * VsCode
@@ -99,6 +100,7 @@ This project was built using these technologies.
 * [Microverse](https://www.microverse.org/)
 * [The Odin Project](https://www.theodinproject.com/)
 * [HTML Cheat Sheet](https://htmlcheatsheet.com/js/)
+* [LESS Documentation](http://lesscss.org/)
 * [BootStrap Documentation](https://getbootstrap.com/)
 
 ## 📝 License
