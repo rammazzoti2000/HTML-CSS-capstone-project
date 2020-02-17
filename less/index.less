@@ -179,6 +179,7 @@ section {
       margin: 40px 0;
       padding: 40px;
       background-color: white;
+      overflow: scroll;
 
       .icon {
         font-size: 2rem;
@@ -622,5 +623,36 @@ footer {
 }
 
 @media only screen and (max-width: 1024px) {
-  
+  section .instructions .instruction-cards {
+    width: 40%;
+    height: 319px;
+  }
+
+  footer .footer-about ul li {
+    padding: 0 13px;
+  }
+
+  .footer-info {
+    padding: 0 15px;
+
+    .subscribe-list {
+      display: flex;
+      flex-flow: column;
+      justify-content: center;
+      align-items: center;
+
+      li {
+        width: 100%;
+        margin-bottom: 17px;
+
+        .footer-input {
+          width: 50%;
+        }
+
+        p {
+          margin-bottom: 0;
+        }
+      }
+    }
+  }
 }

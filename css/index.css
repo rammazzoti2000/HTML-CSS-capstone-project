@@ -153,6 +153,7 @@ section .instructions .instruction-cards {
   margin: 40px 0;
   padding: 40px;
   background-color: white;
+  overflow: scroll;
 }
 section .instructions .instruction-cards .icon {
   font-size: 2rem;
@@ -488,5 +489,33 @@ footer .social-copyright .footer-copyright {
     text-align: center;
     display: flex;
     flex-flow: column;
+  }
+}
+@media only screen and (max-width: 1024px) {
+  section .instructions .instruction-cards {
+    width: 40%;
+    height: 319px;
+  }
+  footer .footer-about ul li {
+    padding: 0 13px;
+  }
+  .footer-info {
+    padding: 0 15px;
+  }
+  .footer-info .subscribe-list {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .footer-info .subscribe-list li {
+    width: 100%;
+    margin-bottom: 17px;
+  }
+  .footer-info .subscribe-list li .footer-input {
+    width: 50%;
+  }
+  .footer-info .subscribe-list li p {
+    margin-bottom: 0;
   }
 }
