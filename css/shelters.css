@@ -35,7 +35,7 @@ body {
   color: white;
 }
 #nav-header nav span {
-  font-size: 2.5rem;
+  font-size: 1.5rem;
   color: white;
   padding-left: 10px;
   font-weight: bold;
@@ -298,38 +298,6 @@ footer .social-copyright .footer-copyright {
   #nav-header nav .remove {
     display: none;
   }
-  section.jumbotron {
-    padding: 5rem 2rem 3rem;
-  }
-  section.jumbotron div.find-container div.input {
-    width: 90%;
-  }
-  section.jumbotron div.find-container div.input input {
-    height: 40px;
-  }
-  section.jumbotron div.find-container .find {
-    display: flex;
-    flex-flow: column;
-    align-items: baseline;
-    width: 90%;
-    padding: 10px 2px;
-  }
-  section.jumbotron div.find-container .find select.custom-select {
-    height: 40px;
-    font-size: 1.5rem;
-  }
-  section.jumbotron div.find-container button.btn-primary {
-    width: 50%;
-    height: 40px;
-    font-size: 1.4rem;
-    margin-top: 20px;
-  }
-  section.jumbotron div.find-container button.btn-warning {
-    width: 38%;
-    height: 40px;
-    font-size: 1.4rem;
-    margin-top: 20px;
-  }
   footer .footer-about {
     display: flex;
     flex-flow: column;
@@ -390,7 +358,7 @@ footer .social-copyright .footer-copyright {
     flex-flow: column;
   }
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 790px) {
   #main-header .main-header-container {
     background-size: auto 100%;
     background-position: center;
@@ -412,6 +380,38 @@ footer .social-copyright .footer-copyright {
   #main-header .main-header-container .cover-header .form-content button {
     width: 26%;
     font-size: 1.5rem;
+  }
+  section.jumbotron {
+    padding: 5rem 2rem 3rem;
+  }
+  section.jumbotron div.find-container div.input {
+    width: 90%;
+  }
+  section.jumbotron div.find-container div.input input {
+    height: 40px;
+  }
+  section.jumbotron div.find-container .find {
+    display: flex;
+    flex-flow: column;
+    align-items: baseline;
+    width: 90%;
+    padding: 10px 2px;
+  }
+  section.jumbotron div.find-container .find select.custom-select {
+    height: 40px;
+    font-size: 1.5rem;
+  }
+  section.jumbotron div.find-container button.btn-primary {
+    width: 50%;
+    height: 40px;
+    font-size: 1.4rem;
+    margin-top: 20px;
+  }
+  section.jumbotron div.find-container button.btn-warning {
+    width: 38%;
+    height: 40px;
+    font-size: 1.4rem;
+    margin-top: 20px;
   }
   footer .footer-about {
     display: flex;
