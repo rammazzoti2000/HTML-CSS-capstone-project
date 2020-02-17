@@ -80,6 +80,7 @@ This project was built using these technologies.
 * HTML
 * CSS3
 * LESS (CSS)
+* BootStrap
 * Stickler
 * VsCode
 
@@ -100,6 +101,7 @@ This project was built using these technologies.
 * [The Odin Project](https://www.theodinproject.com/)
 * [HTML Cheat Sheet](https://htmlcheatsheet.com/js/)
 * [LESS Documentation](http://lesscss.org/)
+* [BootStrap Documentation](https://getbootstrap.com/)
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
