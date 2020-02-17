@@ -39,7 +39,7 @@ body {
       color: white;
     }
 
-    span {
+    .logo-increase {
       font-size: 2.5rem;
       color: white;
       padding-left: 10px;
@@ -421,79 +421,201 @@ footer {
       }
     }
   }
-}
 
-footer {
+  footer {
 
-  .footer-about {
-    display: flex;
-    flex-flow: column;
-
-    .footer-about-list {
-      order: 2;
+    .footer-about {
       display: flex;
-      flex-flow: row;
-      width: 100%;
-      word-wrap: unset;
-
-      li {
-        padding: 0 14px;
+      flex-flow: column;
+  
+      .footer-about-list {
+        order: 2;
+        text-align: center;
+        width: 100%;
+        word-wrap: unset;
+  
+        li {
+          padding: 0 14px;
+        }
+      }
+  
+      .footer-media-list {
+        order: 3;
+        width: 100%;
+        word-wrap: unset;
+        text-align: center;
+  
+        li {
+          padding: 0 14px;
+        }
+      }
+  
+      .footer-logo {
+        order: 1;
+        font-size: 4rem;
+        padding: 0;
+        margin: auto;
+        border: none;
+        border-radius: 0;
       }
     }
+  
+    .footer-info {
+  
+      .subscribe-list {
+        display: flex;
+        flex-flow: column;
+        justify-content: center;
+        align-items: center;
+  
+        li {
+          width: 100%;
+          margin-bottom: 17px;
 
-    .footer-media-list {
-      order: 3;
-      display: flex;
-      flex-flow: row;
-      width: 100%;
-      word-wrap: unset;
-
-      li {
-        padding: 0 14px;
+          p {
+            margin-bottom: 0;
+          }
+        }
       }
     }
-
-    .footer-logo {
-      order: 1;
-      font-size: 4rem;
-      padding: 0;
-      margin: auto;
-      border: none;
-      border-radius: 0;
-    }
-  }
-
-  .footer-info {
-
-    .subscribe-list {
+  
+    .social-copyright {
       display: flex;
       flex-flow: column;
       justify-content: center;
       align-items: center;
-
-      li {
-        width: 100%;
+      height: 130px;
+      padding: 0;
+  
+      .social-footer {
         margin-bottom: 17px;
+      }
+  
+      .footer-copyright {
+        text-align: center;
+        display: flex;
+        flex-flow: column;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  #main-header {
+
+    .main-header-container {
+      background-size: auto 100%;
+      background-position: center;
+
+      .cover-header {
+
+        .form-content {
+          width: 90%;
+
+          h2 {
+          font-size: 1.8rem;
+          }
+
+          form {
+            padding: 23px 18px 33px;
+          }
+
+          input {
+            margin-right: -25%;
+            padding: 3px 10px;
+            width: 99%;
+          }
+
+          button {
+            width: 26%;
+            font-size: 1.5rem;
+          }
+        }
       }
     }
   }
 
-  .social-copyright {
-    display: flex;
-    flex-flow: column;
-    justify-content: center;
-    align-items: center;
-    height: 130px;
-    padding: 0;
-
-    .social-footer {
-      margin-bottom: 17px;
+  section {
+    .instructions div.instruction-cards {
+      width: 45%;
+      margin: 40px 0 10px;
     }
+  }
 
-    .footer-copyright {
-      text-align: center;
+  footer {
+
+    .footer-about {
       display: flex;
       flex-flow: column;
+  
+      .footer-about-list {
+        order: 2;
+        text-align: center;
+        width: 100%;
+        word-wrap: unset;
+  
+        li {
+          padding: 0 14px;
+        }
+      }
+  
+      .footer-media-list {
+        order: 3;
+        width: 100%;
+        word-wrap: unset;
+        text-align: center;
+  
+        li {
+          padding: 0 14px;
+        }
+      }
+  
+      .footer-logo {
+        order: 1;
+        font-size: 4rem;
+        padding: 0;
+        margin: auto;
+        border: none;
+        border-radius: 0;
+      }
+    }
+  
+    .footer-info {
+  
+      .subscribe-list {
+        display: flex;
+        flex-flow: column;
+        justify-content: center;
+        align-items: center;
+  
+        li {
+          width: 100%;
+          margin-bottom: 17px;
+
+          p {
+            margin-bottom: 0;
+          }
+        }
+      }
+    }
+  
+    .social-copyright {
+      display: flex;
+      flex-flow: column;
+      justify-content: center;
+      align-items: center;
+      height: 130px;
+      padding: 0;
+  
+      .social-footer {
+        margin-bottom: 17px;
+      }
+  
+      .footer-copyright {
+        text-align: center;
+        display: flex;
+        flex-flow: column;
+      }
     }
   }
 }
