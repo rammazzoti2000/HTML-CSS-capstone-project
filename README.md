@@ -22,8 +22,7 @@
 <!-- PROJECT LOGO -->
 <br />
 <p align="center">
-  <a href="https://github.com/rammazzoti2000/
-HTML-CSS-capstone-project">
+  <a href="https://github.com/rammazzoti2000/HTML-CSS-capstone-project">
     <img src="/img/microverse.png" alt="Logo" width="80" height="80">
   </a>
 
@@ -104,12 +103,12 @@ This project was built using these technologies.
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[contributors-shield]: https://img.shields.io/github/contributors/rammazzoti2000/HTML-CSS-capstone-project .svg?style=flat-square
-[contributors-url]: https://github.com/rammazzoti2000/HTML-CSS-capstone-project /graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/rammazzoti2000/HTML-CSS-capstone-project .svg?style=flat-square
-[forks-url]: https://github.com/rammazzoti2000/HTML-CSS-capstone-project /network/members
-[stars-shield]: https://img.shields.io/github/stars/rammazzoti2000/HTML-CSS-capstone-project .svg?style=flat-square
-[stars-url]: https://github.com/rammazzoti2000/HTML-CSS-capstone-project /stargazers
-[issues-shield]: https://img.shields.io/github/issues/rammazzoti2000/HTML-CSS-capstone-project .svg?style=flat-square
-[issues-url]: https://github.com/rammazzoti2000/HTML-CSS-capstone-project /issues
-[product-screenshot]: /img/screenshot.png
+[contributors-shield]: https://img.shields.io/github/contributors/rammazzoti2000/HTML-CSS-capstone-project.svg?style=flat-square
+[contributors-url]: https://github.com/rammazzoti2000/HTML-CSS-capstone-project/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/rammazzoti2000/HTML-CSS-capstone-project.svg?style=flat-square
+[forks-url]: https://github.com/rammazzoti2000/HTML-CSS-capstone-project/network/members
+[stars-shield]: https://img.shields.io/github/stars/rammazzoti2000/HTML-CSS-capstone-project.svg?style=flat-square
+[stars-url]: https://github.com/rammazzoti2000/HTML-CSS-capstone-project/stargazers
+[issues-shield]: https://img.shields.io/github/issues/rammazzoti2000/HTML-CSS-capstone-project.svg?style=flat-square
+[issues-url]: https://github.com/rammazzoti2000/HTML-CSS-capstone-project/issues
+[product-screenshot]: ./img/screenshot.png
