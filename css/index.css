@@ -231,9 +231,9 @@ section .instructions .instruction-cards {
   box-shadow: 0 0 10px rgba(226, 65, 64, 0.2);
   border-radius: 5px;
   margin: 40px 0;
-  padding: 40px;
+  padding: 40px 40px 25px;
   background-color: white;
-  overflow: scroll;
+  overflow: auto;
 }
 
 section .instructions .instruction-cards .icon {
