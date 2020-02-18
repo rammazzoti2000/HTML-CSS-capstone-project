@@ -64,7 +64,7 @@ footer .footer-about ul li a {
 }
 
 footer .footer-info ul li {
-  width: 24%;
+  width: 25%;
   display: flex;
   flex-flow: column;
   align-items: center;

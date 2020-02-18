@@ -1,13 +1,16 @@
 * {
   box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+
+html {
+  font-size: 65%;
 }
 
 html,
 body {
-  font-size: 65%;
   width: 100%;
   height: auto;
-  font-family: Arial, Helvetica, sans-serif;
 }
 
 #nav-header {
@@ -34,6 +37,7 @@ body {
   cursor: pointer;
   color: white;
   font-size: 2rem;
+  text-decoration: none;
 }
 
 #nav-header nav .logo-container .logo {
@@ -51,12 +55,11 @@ footer ul li {
 }
 
 footer .footer-about ul li {
-  padding: 0 40px;
+  padding: 0 31px;
 }
 
 footer .footer-info ul li {
-  width: 24%;
-  margin: 0 auto;
+  width: 25%;
   display: flex;
   flex-flow: column;
   align-items: center;
@@ -78,6 +81,7 @@ section.jumbotron .contact-container ul li {
   justify-content: space-between;
   align-items: center;
   padding: 10px;
+  font-size: 1.3rem;
 }
 
 div.jumbotron a {
@@ -110,7 +114,6 @@ footer .social-copyright .social-footer li a {
 #nav-header nav .nav-list li a {
   color: white;
   text-decoration: none;
-  font-size: 1.5rem;
   text-transform: uppercase;
   font-weight: bold;
 }
@@ -121,18 +124,18 @@ section.jumbotron {
   background-color: white;
 }
 
-.map-container h2 {
+.map-container h1 {
   text-align: center;
-  color: #e24140;
-  font-size: 3rem;
-  font-weight: 300;
+  color: #d35649;
+  font-size: 2.5rem;
+  font-weight: 400;
   margin: 66px 0 40px;
 }
 
 section.jumbotron h2 {
   font-size: 3.5rem;
   font-weight: 300;
-  color: #e24140;
+  color: #d35649;
   padding-left: 12px;
 }
 
@@ -175,11 +178,14 @@ footer .footer-info ul button {
   cursor: pointer;
 }
 
-section.jumbotron .contact-container button {
+section.jumbotron .contact-container button.btn-primary {
   float: right;
   clear: both;
   margin-bottom: 10px;
-  font-size: 1.5rem;
+  background-color: #457db4;
+  border: 0;
+  font-size: 1.4rem;
+  padding: 6px;
 }
 
 footer .footer-about ul {
@@ -203,6 +209,7 @@ div.jumbotron {
   letter-spacing: 8px;
   padding: 14px 20px;
   text-align: center;
+  background-color: #eee;
 }
 
 .map-container {
@@ -307,6 +314,12 @@ footer .social-copyright .footer-copyright {
   letter-spacing: 3px;
 }
 
+@media only screen and (max-width: 364px) {
+  #nav-header nav .nav-list li {
+    padding: 10px 20px !important;
+  }
+}
+
 @media only screen and (max-width: 576px) {
   #nav-header {
     height: 90px;
@@ -339,10 +352,6 @@ footer .social-copyright .footer-copyright {
 
   #nav-header nav .nav-list li {
     padding: 0 32px;
-  }
-
-  #nav-header nav .remove {
-    display: none;
   }
 
   footer .footer-about {
@@ -404,33 +413,14 @@ footer .social-copyright .footer-copyright {
   }
 }
 
-@media only screen and (max-width: 790px) {
-  #main-header .main-header-container {
-    background-size: auto 100%;
-    background-position: center;
+@media only screen and (max-width: 768px) {
+
+  #nav-header nav .remove {
+    display: none;
   }
 
-  #main-header .main-header-container .cover-header .form-content {
-    width: 90%;
-  }
-
-  #main-header .main-header-container .cover-header .form-content h2 {
-    font-size: 1.8rem;
-  }
-
-  #main-header .main-header-container .cover-header .form-content form {
-    padding: 23px 18px 33px;
-  }
-
-  #main-header .main-header-container .cover-header .form-content input {
-    margin-right: -25%;
-    padding: 3px 10px;
-    width: 99%;
-  }
-
-  #main-header .main-header-container .cover-header .form-content button {
-    width: 26%;
-    font-size: 1.5rem;
+  #nav-header nav .nav-list li {
+    padding: 10px 34px;
   }
 
   section.jumbotron div.info-rows {
@@ -466,7 +456,7 @@ footer .social-copyright .footer-copyright {
     padding: 0;
   }
 
-  div.contact-container button.btn-primary {
+  section.jumbotron .contact-container button.btn-primary {
     float: none;
   }
 
