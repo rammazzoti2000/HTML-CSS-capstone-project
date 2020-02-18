@@ -36,6 +36,7 @@ body {
   cursor: pointer;
   color: white;
   font-size: 2rem;
+  text-decoration: none;
 }
 
 #nav-header nav .logo-container .logo {
@@ -383,29 +384,6 @@ footer .social-copyright .footer-copyright {
   #main-header .main-header-container {
     background-size: auto 100%;
     background-position: center;
-  }
-
-  #main-header .main-header-container .cover-header .form-content {
-    width: 90%;
-  }
-
-  #main-header .main-header-container .cover-header .form-content h1 {
-    font-size: 1.8rem;
-  }
-
-  #main-header .main-header-container .cover-header .form-content form {
-    padding: 23px 18px 33px;
-  }
-
-  #main-header .main-header-container .cover-header .form-content input {
-    margin-right: -25%;
-    padding: 3px 10px;
-    width: 99%;
-  }
-
-  #main-header .main-header-container .cover-header .form-content button {
-    width: 26%;
-    font-size: 1.4rem;
   }
 
   #section .pet-title-header {

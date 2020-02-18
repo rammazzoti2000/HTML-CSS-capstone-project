@@ -1,12 +1,15 @@
 * {
   box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+
+html {
+  font-size: 65%;
 }
 
 html,
 body {
-  font-size: 65%;
   width: 100%;
-  font-family: Arial, Helvetica, sans-serif;
   height: auto;
 }
 
@@ -34,6 +37,7 @@ body {
   cursor: pointer;
   color: white;
   font-size: 2rem;
+  text-decoration: none;
 }
 
 #nav-header nav .logo-container .logo {
@@ -51,7 +55,7 @@ footer ul li {
 }
 
 footer .footer-about ul li {
-  padding: 0 40px;
+  padding: 0 31px;
 }
 
 footer .footer-about ul li a {
@@ -61,7 +65,6 @@ footer .footer-about ul li a {
 
 footer .footer-info ul li {
   width: 24%;
-  margin: 0 auto;
   display: flex;
   flex-flow: column;
   align-items: center;
@@ -82,12 +85,12 @@ footer .social-copyright .social-footer li a {
   justify-content: space-between;
   align-items: center;
   padding: 10px;
+  font-size: 1.3rem;
 }
 
 #nav-header nav .nav-list li a {
   color: white;
   text-decoration: none;
-  font-size: 1.5rem;
   text-transform: uppercase;
   font-weight: bold;
 }
@@ -98,11 +101,15 @@ section.jumbotron {
   font-size: 1.5rem;
   font-weight: bold;
   padding: 5rem 2rem 10rem;
+  background-color: #eee;
 }
 
 section.jumbotron h2 {
-  font-size: 3rem;
-  font-weight: 500;
+  font-size: 2.5rem;
+  font-weight: 600;
+  text-align: center;
+  color: #91939a;
+  padding-bottom: 25px;
 }
 
 section.jumbotron .find-container {
@@ -116,11 +123,10 @@ section.jumbotron .find-container div.input {
 }
 
 section.jumbotron .find-container div.input input {
-  height: 32px;
   background-color: white;
-  border: 1px solid lightgray;
+  border: 0;
   border-radius: 3px;
-  padding-left: 5px;
+  padding: 6.7px 6px;
   width: 100%;
 }
 
@@ -130,15 +136,20 @@ section.jumbotron .find-container .find {
   justify-content: center;
   align-items: flex-start;
   padding: 0 2px;
-  width: 10%;
 }
 
 section.jumbotron .find-container .find label {
-  font-size: 1.4rem;
+  font-size: 1.3rem;
+  color: #474747;
+  line-height: 2.3;
 }
 
 section.jumbotron .find-container .find .custom-select {
-  height: 32px;
+  background: white;
+  border: 0;
+  font-size: 1.5rem;
+  padding: 7px;
+  font-weight: 100;
 }
 
 footer .footer-info ul button {
@@ -152,9 +163,21 @@ footer .footer-info ul button {
 }
 
 section.jumbotron .find-container button {
-  height: 30px;
   align-self: flex-end;
-  margin: 0 2px 1px 1px;
+  margin: 0 2px 1px 2px;
+  border: 0;
+  color: white;
+  border-radius: 3px;
+  padding: 6px;
+  cursor: pointer;
+}
+
+section.jumbotron .find-container button.btn-primary {
+  background-color: #457db4;
+}
+
+section.jumbotron .find-container button.btn-warning {
+  background-color: #e5ab5a;
 }
 
 .search-results {
@@ -163,56 +186,29 @@ section.jumbotron .find-container button {
   text-align: center;
 }
 
+h1 {
+  font-size: 2.5rem;
+  color: #5b5656;
+  margin-bottom: 20px;
+}
+
 .search-results .search-container {
   display: flex;
   flex-flow: row wrap;
   justify-content: center;
 }
 
-.search-results .search-container .search-cards {
-  padding: 27px 0;
-  background-color: rgba(0, 0, 0, 0.2);
-  position: relative;
-}
-
-.search-results .search-container .search-cards img {
-  width: 60%;
-  margin: auto;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
-  border-radius: 5px;
-}
-
-.search-results .search-container .search-cards .middle {
-  position: absolute;
-  z-index: 998;
-  top: 7.99%;
-  left: 20%;
-  background-color: rgba(0, 0, 0, 0.5);
-  width: 60%;
-  height: 84%;
-  border-radius: 5px;
-  cursor: pointer;
-}
-
-.search-results .search-container .search-cards .middle:hover {
-  background-color: rgba(0, 0, 0, 0.3);
-}
-
-.search-results .search-container .search-cards .text {
-  position: absolute;
-  bottom: 15%;
-  left: 26%;
+.search-container .search-cards {
+  display: block;
+  width: 18%;
+  margin: 10px;
+  height: 250px;
+  background: #d85e4b url(../img/paws.png) no-repeat center;
+  font-size: 1.8rem;
+  padding: 100px 0;
   color: white;
-  background-color: #d3574a;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
-  padding: 8px 10px 10px;
-  font-size: 1.3rem;
-  font-weight: bold;
-  border-radius: 3px;
-}
-
-.search-results .search-container .search-cards .text:hover {
-  background-color: #351316;
+  text-decoration: none;
+  font-weight: 900;
 }
 
 footer {
@@ -327,6 +323,12 @@ footer .social-copyright .footer-copyright {
   letter-spacing: 3px;
 }
 
+@media only screen and (max-width: 364px) {
+  #nav-header nav .nav-list li {
+    padding: 10px 20px !important;
+  }
+}
+
 @media only screen and (max-width: 576px) {
   #nav-header {
     height: 90px;
@@ -425,6 +427,14 @@ footer .social-copyright .footer-copyright {
 }
 
 @media only screen and (max-width: 790px) {
+  #nav-header nav .remove {
+    display: none;
+  }
+
+  #nav-header nav .nav-list li {
+    padding: 10px 34px;
+  }
+
   #main-header .main-header-container {
     background-size: auto 100%;
     background-position: center;
@@ -468,7 +478,6 @@ footer .social-copyright .footer-copyright {
   section.jumbotron div.find-container .find {
     display: flex;
     flex-flow: column;
-    align-items: baseline;
     width: 90%;
     padding: 10px 2px;
   }
@@ -478,18 +487,8 @@ footer .social-copyright .footer-copyright {
     font-size: 1.5rem;
   }
 
-  section.jumbotron div.find-container button.btn-primary {
-    width: 50%;
-    height: 40px;
-    font-size: 1.4rem;
-    margin-top: 20px;
-  }
-
-  section.jumbotron div.find-container button.btn-warning {
-    width: 38%;
-    height: 40px;
-    font-size: 1.4rem;
-    margin-top: 20px;
+  .search-container .search-cards {
+    width: 75%;
   }
 
   footer .footer-about {
@@ -569,6 +568,37 @@ footer .social-copyright .footer-copyright {
 }
 
 @media only screen and (max-width: 1024px) {
+  section.jumbotron .find-container {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+  }
+
+  section.jumbotron .find-container div.input {
+    width: 50%;
+  }
+
+  section.jumbotron .find-container .find {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: normal;
+    padding: 10px 2px;
+    width: 50%;
+  }
+
+  section.jumbotron .find-container button.btn-primary {
+    align-self: center;
+    width: 50%;
+    margin-bottom: 8px;
+  }
+
+  section.jumbotron .find-container button.btn-warning {
+    align-self: center;
+    width: 50%;
+  }
+
   footer .footer-about ul li {
     padding: 0 13px;
   }
