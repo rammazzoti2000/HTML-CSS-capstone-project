@@ -237,7 +237,7 @@ section .instructions .instruction-cards {
 }
 
 section .instructions .instruction-cards .icon {
-  font-size: 2rem;
+  font-size: 3rem;
 }
 
 section .instructions .instruction-cards h3 {
