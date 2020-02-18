@@ -34,7 +34,7 @@
     <a href="https://github.com/rammazzoti2000/HTML-CSS-capstone-project/issues"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://rawcdn.githack.com/rammazzoti2000/HTML-CSS-capstone-project/bb169ee6d9823b618dbf52fc150f48443685639c/index.html">View Demo</a>
+    <a href="https://rawcdn.githack.com/rammazzoti2000/HTML-CSS-capstone-project/2811fd98346db7468059664d27788cd19a8c55c9/index.html">View Demo</a>
     ·
     <a href="https://github.com/rammazzoti2000/HTML-CSS-capstone-project/issues">Report Bug</a>
     ·
@@ -87,13 +87,17 @@ This project was built using these technologies.
 <!-- LIVE VERSION -->
 ## Live version
 
-:point_right:  [You can see it here](https://rawcdn.githack.com/rammazzoti2000/HTML-CSS-capstone-project/bb169ee6d9823b618dbf52fc150f48443685639c/index.html)
+:point_right:  [You can see it here](https://rawcdn.githack.com/rammazzoti2000/HTML-CSS-capstone-project/2811fd98346db7468059664d27788cd19a8c55c9/index.html)
 
 <!-- CONTACT -->
 ## Contact
 
 👤 Alexandru Bangau - twitter: [@alex_maxinova](https://twitter.com/alex_maxinova) - github: [@ramamzzoti2000](https://github.com/rammazzoti2000) - gmail: bangau.alexandru@gmail.com
 
+
+<!-- ATTRIBUTIONS AND CREDITS -->
+## Credit
+- Original site design by [Mathew Njuguna and others on Behance](https://www.behance.net/mathewnjuguna)
 
 <!-- ACKNOWLEDGEMENTS -->
 ## Acknowledgements
