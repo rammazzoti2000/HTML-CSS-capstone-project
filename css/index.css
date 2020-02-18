@@ -563,7 +563,6 @@ footer .social-copyright .footer-copyright {
 
 @media only screen and (max-width: 1024px) {
   #main-header .main-header-container {
-    background-size: auto 100%;
     background-position: center;
   }
 
