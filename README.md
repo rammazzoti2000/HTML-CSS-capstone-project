@@ -122,4 +122,4 @@ This project is [MIT](https://opensource.org/licenses/MIT) licensed.
 [stars-url]: https://github.com/rammazzoti2000/HTML-CSS-capstone-project/stargazers
 [issues-shield]: https://img.shields.io/github/issues/rammazzoti2000/HTML-CSS-capstone-project.svg?style=flat-square
 [issues-url]: https://github.com/rammazzoti2000/HTML-CSS-capstone-project/issues
-[product-screenshot]: ./img/screenshot.png
+[product-screenshot]: ./img/screenshot2.png
