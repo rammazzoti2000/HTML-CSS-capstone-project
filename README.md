@@ -34,7 +34,7 @@
     <a href="https://github.com/rammazzoti2000/HTML-CSS-capstone-project/issues"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://rawcdn.githack.com/rammazzoti2000/HTML-CSS-capstone-project/2811fd98346db7468059664d27788cd19a8c55c9/index.html">View Demo</a>
+    <a href="https://rawcdn.githack.com/rammazzoti2000/HTML-CSS-capstone-project/a82f6962b0198eb96585021c610a72480c96123a/index.html">View Demo</a>
     ·
     <a href="https://github.com/rammazzoti2000/HTML-CSS-capstone-project/issues">Report Bug</a>
     ·
@@ -87,7 +87,7 @@ This project was built using these technologies.
 <!-- LIVE VERSION -->
 ## Live version
 
-:point_right:  [You can see it here](https://rawcdn.githack.com/rammazzoti2000/HTML-CSS-capstone-project/2811fd98346db7468059664d27788cd19a8c55c9/index.html)
+:point_right:  [You can see it here](https://rawcdn.githack.com/rammazzoti2000/HTML-CSS-capstone-project/a82f6962b0198eb96585021c610a72480c96123a/index.html)
 
 <!-- CONTACT -->
 ## Contact
