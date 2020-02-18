@@ -97,7 +97,8 @@ This project was built using these technologies.
 
 <!-- ATTRIBUTIONS AND CREDITS -->
 ## Credit
-- Original site design by [Mathew Njuguna and others on Behance](https://www.behance.net/mathewnjuguna)
+
+Original site design by [Mathew Njuguna and others on Behance](https://www.behance.net/mathewnjuguna)
 
 <!-- ACKNOWLEDGEMENTS -->
 ## Acknowledgements
