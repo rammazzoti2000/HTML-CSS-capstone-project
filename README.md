@@ -85,9 +85,11 @@ This project was built using these technologies.
 * VsCode
 
 <!-- LIVE VERSION -->
-## Live version
+## Live project demo and video presentation
 
-:point_right:  [You can see it here](https://rawcdn.githack.com/rammazzoti2000/HTML-CSS-capstone-project/a82f6962b0198eb96585021c610a72480c96123a/index.html)
+:point_right:  [Live demo link](https://rawcdn.githack.com/rammazzoti2000/HTML-CSS-capstone-project/a82f6962b0198eb96585021c610a72480c96123a/index.html)
+
+:point_right:  [Video project presentation](https://www.loom.com/share/ff218bb6079c400484d2286d65435a1e)
 
 <!-- CONTACT -->
 ## Contact
