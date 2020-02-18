@@ -414,9 +414,26 @@ footer .social-copyright .footer-copyright {
 }
 
 @media only screen and (max-width: 768px) {
-
   #nav-header nav .remove {
     display: none;
+  }
+
+  footer .footer-about .footer-about-list li {
+    padding: 0 14px;
+  }
+
+  footer .footer-about .footer-media-list li {
+    padding: 0 14px;
+  }
+
+  footer .footer-info .subscribe-list li {
+    width: 100%;
+    margin-bottom: 17px;
+  }
+
+  div.contact-container ul.contact-list li {
+    display: block;
+    padding: 0;
   }
 
   #nav-header nav .nav-list li {
@@ -436,24 +453,6 @@ footer .social-copyright .footer-copyright {
 
   div.contact-container ul.contact-list {
     float: none;
-  }
-
-  footer .footer-about .footer-about-list li {
-    padding: 0 14px;
-  }
-
-  footer .footer-about .footer-media-list li {
-    padding: 0 14px;
-  }
-
-  footer .footer-info .subscribe-list li {
-    width: 100%;
-    margin-bottom: 17px;
-  }
-
-  div.contact-container ul.contact-list li {
-    display: block;
-    padding: 0;
   }
 
   section.jumbotron .contact-container button.btn-primary {
