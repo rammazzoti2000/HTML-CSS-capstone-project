@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HTM/CSS - Capstone | Dog-Shelter Directory</title>
+  <link rel="stylesheet" href="../css/shelters.css">
+  <link rel="stylesheet" href="../css/reset.css">
+  <script src="https://kit.fontawesome.com/d4de0f4540.js" crossorigin="anonymous"></script>
+  <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <!-- Navigation bar -->
+  <header id="nav-header">    
+    <nav>
+      <a class="logo-container text-decoration-none" href="../index.html">
+        <i class="fas fa-map-marker-alt logo"></i>
+        <span class="logo-increase">PETFinder</span>
+      </a>
+
+      <ul class="nav-list">
+        <li><a href="../pages/shelters.html"><i class="fas fa-search"></i><span class="remove">&nbsp;shelters</span></a></li>
+        <li><a href="#"><i class="far fa-user"></i><span class="remove">&nbsp;about</span></a></li>
+        <li><a href="#"><i class="fas fa-rss"></i><span class="remove">&nbsp;blog</span></a></li>
+        <li><a href="#"><i class="fas fa-bars"></i><span class="remove">&nbsp;more...</span></a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Search input section -->
+  <section class="jumbotron">
+    <h2>Filter by name, state, county or zipcode:</h2>
+    <div class="find-container">
+      <div class="input find">
+        <label>SHELTER NAME:*</label>
+        <input type="text" required>
+      </div>
+      <div class="find">
+        <label for="state">STATE:</label>
+        <select name="state" id="state" class="custom-select">
+          <option selected>Choose...</option>
+          <option value="france">France</option>
+          <option value="germany">Germany</option>
+          <option value="italy">Italy</option>
+          <option value="poland">Poland</option>
+          <option value="romania">Romania</option>
+          <option value="spain">Spain</option>
+        </select>
+      </div>
+      <div class="find">
+        <label for="county">COUNTY:</label>
+        <select name="county" id="county" class="resize-select custom-select">
+          <option selected>Choose...</option>
+        </select>
+      </div>
+      <div class="find">
+        <label for="city">CITY:</label>
+        <select name="city" id="city" class="resize-select custom-select">
+          <option selected>Choose...</option>
+        </select>
+      </div>
+      <div class="find">
+        <label for="zipcode">ZIPCODE:</label>
+        <select name="zipcode" id="zipcode" class="resize-select custom-select">
+          <option selected>Choose...</option>
+        </select>
+      </div>
+      <button type="submit" class="btn btn-primary">Search</button>
+      <button class="btn btn-warning text-white"><i class="fas fa-edit"></i>Clear filter</button>
+    </div>
+  </section>
+
+  <!-- Search results section -->
+  <section class="search-results">
+    <h1>Search Results Found 3 Shelter(s).</h1>
+    <div class="search-container">
+      <a class="search-cards" href="detailes.html">SHELTER 1</a>
+      <a class="search-cards" href="detailes.html">SHELTER 2</a>
+      <a class="search-cards" href="detailes.html">SHELTER 3</a>
+    </div>
+  </section>
+
+ 
+  <!-- Footer section -->
+  <footer>
+
+    <!-- top footer -->
+    <div class="footer-about">
+      <ul class="footer-about-list">
+        <li><a href="#">HOME</a></li>
+        <li><a href="#">SEARCH</a></li>
+        <li><a href="#">ABOUT US</a></li>
+        <li><a href="#">ADVERTISE</a></li>
+      </ul>
+
+      <div class="footer-logo"><i class="fas fa-map-marker-alt"></i></div>
+
+      <ul class="footer-media-list">
+        <li><a href="#">FACEBOOK</a></li>
+        <li><a href="#">TWITEER</a></li>
+        <li><a href="#">BLOG</a></li>
+        <li><a href="#">GOOGLE</a></li>
+      </ul>
+    </div>
+
+    <!-- middle footer -->
+    <div class="footer-info">
+      <ul class="subscribe-list">
+        <li>
+          <h4>SUBSCRIBE</h4>
+          <div class="footer-input">
+            <input type="text" name="search" placeholder="you@example.com">
+            <button type="button">send</button>
+          </div>
+        </li>
+        
+        <li>
+          <h4>CONTACT</h4>
+          <p>Have a question or submission?</p>
+          <span>you@example.com</span>
+        </li>
+
+        <li>
+          <h4>ABOUT</h4>
+          <p>PETFinder is an online, searchable database of animals who need homes. It is also a directory of nearly thousands of animal shelters and adoption organizations across the Europe. Organizations maintain their own home pages and available-pet databases.<span> Learn more...</span></p>
+        </li>
+      </ul>
+    </div>
+
+    <!-- bottom footer -->
+    <div class="social-copyright">
+      <ul class="social-footer">
+        <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+        <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+        <li><a href="#"><i class="fab fa-tumblr"></i></a></li>
+        <li><a href="#"><i class="fab fa-google-plus-g"></i></a></li>
+        <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+      </ul>
+
+      <ul class="footer-copyright">
+        <li><p>&copy;PETFINDER 2020.</p></li>
+        <li><p>&nbsp; ALL RIGHTS RESERVED.</p></li>
+        <li><p>&nbsp; LOVE AND AWESOMNESS.</p></li>
+      </ul>
+    </div>
+  </footer>
+</body>
+</html>
