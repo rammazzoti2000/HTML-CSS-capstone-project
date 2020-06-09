@@ -82,7 +82,17 @@ This project was built using these technologies.
 * LESS (CSS)
 * BootStrap
 * Stickler
-* VsCode
+* Atom :atom:
+
+## Usage
+
+If you want to use it locally [download](https://github.com/rammazzoti2000/HTML-CSS-capstone-project/archive/master.zip) or clone the repo with the following command on a linux terminal:
+
+```git clone https://github.com/rammazzoti2000/HTML-CSS-capstone-project.git```
+
+cd to the projects directory and open the index.html in your browser
+
+![screenshot](img/capstone.jpg)
 
 <!-- LIVE VERSION -->
 ## Live project demo and video presentation
@@ -91,11 +101,28 @@ This project was built using these technologies.
 
 :point_right:  [Video project presentation](https://www.loom.com/share/ff218bb6079c400484d2286d65435a1e)
 
+<!-- AUTOMATED TEST -->
+## Automated Test
+
+> There are no Automated Test for this project yet
+
+## Potential future features
+- Make it a full stack application using back-end technologies, mainly RubyOnRails
+- Improve the front-end
+
 <!-- CONTACT -->
 ## Contact
 
 👤 Alexandru Bangau - twitter: [@alex_maxinova](https://twitter.com/alex_maxinova) - github: [@ramamzzoti2000](https://github.com/rammazzoti2000) - gmail: bangau.alexandru@gmail.com
 
+## 🤝 Contributing
+
+Contributions, issues and feature requests are welcome!
+
+Feel free to check the [issues page](https://github.com/rammazzoti2000/HTML-CSS-capstone-project/issues).
+
+## Show your support
+Give a :star: if you like this project!
 
 <!-- ATTRIBUTIONS AND CREDITS -->
 ## Credit
