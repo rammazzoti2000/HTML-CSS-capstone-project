@@ -95,11 +95,11 @@ cd to the projects directory and open the index.html in your browser
 ![screenshot](img/capstone.jpg)
 
 <!-- LIVE VERSION -->
-## Live project demo and video presentation
+## Live project demo and Walkthrough Video
 
-:point_right:  [Live demo link](https://rawcdn.githack.com/rammazzoti2000/HTML-CSS-capstone-project/7f9326753720d862b2592569a1fa0cb6d0837f4f/index.html)
+:point_right:  [Live demo link](https://rammazzoti2000.github.io/HTML-CSS-capstone-project/)
 
-:point_right:  [Video project presentation](https://www.loom.com/share/ff218bb6079c400484d2286d65435a1e)
+:point_right:  [Walkthrough Video](https://www.loom.com/share/ff218bb6079c400484d2286d65435a1e)
 
 <!-- AUTOMATED TEST -->
 ## Automated Test
